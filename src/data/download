@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p ../../data/raw
+cd ../../data/raw
+kaggle competitions download -c rsna-intracranial-hemorrhage-detection
+unzip rsna-intracranial-hemorrhage-detection.zip
+rm rsna-intracranial-hemorrhage-detection.zip
